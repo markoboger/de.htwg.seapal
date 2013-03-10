@@ -18,3 +18,14 @@ Please follow the instructions below carefully.
 2. Configure the path to de.htwg.seapal/Seapal_php/site
 3. start the Apache Server
 4. navigate to localhost:8080 with your browser (Chrome preferred for this lecture)
+
+## Set up the database
+
+## Pull in changes from Upstream
+When the original git repository is update, you should pull these changes. 
+
+Open the command line tool and enter the following commands
+
+`git fetch upstream`  Fetches any new changes from the original repository
+
+`git merge upstream/master`  Merges any changes fetched into your working files 

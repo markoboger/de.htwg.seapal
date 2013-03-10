@@ -17,7 +17,7 @@
 	    	<div class="container-fluid">
 		    	<div class="row-fluid">
 		    	
-		    		<!-- Sidebar -->
+		    		<!-- Sidebar  -->
 			    	<div class="span3">
 				    	<div class="sidebar-nav">
 					    	<ul class="nav nav-list bs-docs-sidenav affix" id="sidebar">
