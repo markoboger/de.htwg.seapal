@@ -12,3 +12,9 @@ Please follow the instructions below carefully.
 5. Commit changes to your fork only.
 6. Provide the URL of your fork on the moodle site for this lecture.
 7. Only when asked, send me a pull request.
+
+## Set up a PhP Server
+1. Start XAMPP dashboard on your local machine
+2. Configure the path to de.htwg.seapal/Seapal_php/site
+3. start the Apache Server
+4. navigate to localhost:8080 with your browser (Chrome preferred for this lecture)
