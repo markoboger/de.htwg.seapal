@@ -24,7 +24,7 @@ Please follow the instructions below carefully.
 ## Pull in changes from Upstream
 When the original git repository is update, you should pull these changes. 
 
-Open the command line tool and enter the following commands
+Open the command line tool and enter the following commands 
 
 `git fetch upstream`  Fetches any new changes from the original repository
 
