@@ -7,7 +7,7 @@ Please follow the instructions below carefully.
 
 1. Make a fork of de.htwg.seapal on github. There is a little button on the top right at https://github.com/markoboger/de.htwg.seapal to do so.
 2. Change to your clone and copy the http github URL
-3. Open your IDE (for this lecture I recommend Aptana Studio 3 and later in the course Eclipse)
+3. Open your Editor or IDE (for this lecture I recommend Sublime and git from command line or Aptana Studio 3 and later in the course Eclipse)
 4. Import a project as git repository, using the URL from your fork.
 5. Commit changes to your fork only.
 6. Provide the URL of your fork on the moodle site for this lecture.
