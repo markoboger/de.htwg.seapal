@@ -39,18 +39,18 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="index.php">
+					<a class="brand" href="index.html">
 						<img src='../img/icons/seapal_normal.png' alt='Icon-Small-50' width='50' height='50' style="float: left; padding-top: 5px; padding-left: 20px"/>
 						<h2 style="float: left; padding-left:10px; margin-right:100px; font-weight: normal;">Seapal</h2>
 					</a>
 					<div class="nav-collapse collapse">
 						<ul class="nav nav-pills" style="padding-left:0px; padding-top: 24px; font-size: 18px;">
-							<li class="active"><a href='index.php'>Home</a></li>
-							<li><a href='app_map.php'>App</a></li>
-							<li><a href='userguide.php'>User Guide</a></li>
-							<li><a href='screenshots.php'>Screenshots</a></li>
-							<li><a href='about.php'>About</a></li>
-							<li><a href='contact.php'>Contact</a></li>
+							<li class="active"><a href='index.html'>Home</a></li>
+							<li><a href='app_map.html'>App</a></li>
+							<li><a href='userguide.html'>User Guide</a></li>
+							<li><a href='screenshots.html'>Screenshots</a></li>
+							<li><a href='about.html'>About</a></li>
+							<li><a href='contact.html'>Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -61,8 +61,21 @@
     	<!-- Container -->
     	<div class="container-fluid">
     		
-    		<!-- App Navigation -->
-    		<?php include('_include/navigation_app.php'); ?>
+			<!-- App Navigation -->
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container">		
+						<ul class="nav">
+							<li><a href="app_map.html">Map</a></li>
+							<li><a href="app_boatinfo.html">Logbuch</a></li>
+							<li><a href="app_trip.html">Routen</a></li>
+						</ul>
+						<ul class="navbar-form pull-right" style="list-style-type: none;">
+							<li><a class="btn" id="startSimulation"><i class="icon-play"></i></a><li>
+						</ul>
+					</div>
+				</div>
+			</div>
     		
     		<!-- Content -->
     		<div id="appWrapper" align="center">
@@ -172,7 +185,7 @@
 	                            echo("<td style='width:30px; text-align:right;'><div class='btn-group'>");
 		                        echo("<a class='btn btn-small view' id='" . $row['tnr'] . "'><span><i class='icon-eye-open'></i></span></a>");
 		                        echo("<a class='btn btn-small remove' id='" . $row['tnr'] . "'><span><i class='icon-remove'></i></span></a>");
-		                        echo("<a href='app_tripinfo.php?tnr=" . $row['tnr'] . "' class='btn btn-small redirect' id='" . $row['tnr'] . "'><span><i class='icon-chevron-right'></i></span></a>");
+		                        echo("<a href='app_tripinfo.html?tnr=" . $row['tnr'] . "' class='btn btn-small redirect' id='" . $row['tnr'] . "'><span><i class='icon-chevron-right'></i></span></a>");
 		                        echo("</div></td>");
 	                            echo("</tr>");
 	                        }
